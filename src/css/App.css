@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: "CPAC MODERN MEDIUM" !important;
+}
+@font-face {
+  font-family: "CPAC MODERN MEDIUM";
+  size-adjust: 115%;
+
+  src: local("CPAC MODERN MEDIUM"),
+    url("/src/fonts/CPAC/CPAC MODERN MEDIUM.TTF");
+}

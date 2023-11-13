@@ -1,379 +1,367 @@
 .bookingSite {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .license-card {
-    background: white;
-    padding: 5px;
-    border: solid 1px black;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-bottom: 50px;
-    font-size: 14px;
+  background: white;
+  padding: 5px;
+  border: solid 1px black;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  font-size: 14px;
 }
 
 .wait-cardlist {
-    width: 100%;
-    background: rgb(250, 193, 4);
-    margin-top: 15px;
-    font-weight: bolder;
-    color: white;
-    padding: 5px;
+  width: 100%;
+  background: rgb(250, 193, 4);
+  margin-top: 15px;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
 }
 
 .turn-on-cardlist {
-    width: 100%;
-    background: rgb(60, 135, 247);
-    margin-top: 15px;
-    font-weight: bolder;
-    color: white;
-    padding: 5px;
+  width: 100%;
+  background: rgb(60, 135, 247);
+  margin-top: 15px;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
 }
 
 .turn-off-cardlist {
-    width: 100%;
-    background: rgb(245, 77, 77);
-    margin-top: 15px;
-    font-weight: bolder;
-    color: white;
-    padding: 5px;
+  width: 100%;
+  background: rgb(245, 77, 77);
+  margin-top: 15px;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
 }
 
 .turn-on-cardlist:hover {
-    background: rgb(34, 113, 233);
+  background: rgb(34, 113, 233);
 }
 
 .turn-off-cardlist:hover {
-    background: rgb(199, 40, 40);
+  background: rgb(199, 40, 40);
 }
 
 .success-cardlist {
-    width: 100%;
-    background: rgb(165, 165, 165);
-    margin-top: 15px;
-    font-weight: bolder;
-    color: white;
-    padding: 5px;
+  width: 100%;
+  background: rgb(165, 165, 165);
+  margin-top: 15px;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
 }
 
 .datapick {
-    background-color: #ffffff;
-    color: #000000;
-    opacity: 95%;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%);
-    width: 50%;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  opacity: 95%;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
 }
 
 .min-width {
-    min-width: 50px;
+  min-width: 50px;
 }
 
 .card-item {
-    border-radius: 20px;
-    box-shadow: 0px 5px 10px #292929
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px #292929;
 }
 
 .textover {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-item:hover {
-
-    transition: 300ms;
-    border: solid 5px #fac34d;
-
+  transition: 300ms;
+  border: solid 5px #fac34d;
 }
 
 .bigcard {
-    border-radius: 15px;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 2fr 1.5fr;
-    height: 200px;
-
-
+  border-radius: 15px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  height: 200px;
 }
 
 .colcard-left {
-    flex: 2;
-    border-radius: 15px 0px 0px 15px;
+  flex: 2;
+  border-radius: 15px 0px 0px 15px;
 }
 
 .colcard-right {
-    background-color: rgb(255, 255, 255);
-    flex: 2;
-    border-radius: 0px 15px 15px 0px;
-    white-space: wrap;
-    overflow: hidden
+  background-color: rgb(255, 255, 255);
+  flex: 2;
+  border-radius: 0px 15px 15px 0px;
+  white-space: wrap;
+  overflow: hidden;
 }
 
 .content {
-    border: solid 1px #888888;
-    border-radius: 10px 10px 10px 10px;
+  border: solid 1px #888888;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .btnMenu {
-    transition: 300ms;
+  transition: 300ms;
 }
 
 .btnMenu:hover {
-    box-shadow: 5px 5px 5px #888888;
-    transition: 300ms;
+  box-shadow: 5px 5px 5px #888888;
+  transition: 300ms;
 }
 
 .nav-btn {
-    position: fixed;
-    bottom: 10%;
-    right: 1%;
+  position: fixed;
+  bottom: 10%;
+  right: 1%;
 }
 
 .brandname {
-    font-size: 48px;
-    font-weight: bold;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .license {
-    font-size: 32px;
-    font-weight: lighter;
+  font-size: 32px;
+  font-weight: lighter;
 }
 
 .flexbox {
-    padding-left: 50px;
-    padding-right: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .wait-lightdot {
-    height: 10px;
-    width: 10px;
-    background-color: rgb(250, 193, 4);
-    border-radius: 50%;
-    display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(250, 193, 4);
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .allowed-lightdot {
-    height: 10px;
-    width: 10px;
-    background-color: rgb(60, 135, 247);
-    border-radius: 50%;
-    display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(60, 135, 247);
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .running-lightdot {
-    height: 10px;
-    width: 10px;
-    background-color: rgb(8, 207, 1);
-    border-radius: 50%;
-    display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(8, 207, 1);
+  border-radius: 50%;
+  display: inline-block;
 }
 .success-lightdot {
-    height: 10px;
-    width: 10px;
-    background-color: rgb(165, 165, 165);
-    border-radius: 50%;
-    display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(165, 165, 165);
+  border-radius: 50%;
+  display: inline-block;
 }
 .cancel-lightdot {
-    height: 10px;
-    width: 10px;
-    background-color: rgb(240, 21, 21);
-    border-radius: 50%;
-    display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(240, 21, 21);
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .itembook {
-    display: block;
-    box-sizing: border-box;
-    width: 25%;
-    padding: 10px;
-    transition: 300ms;
-    padding-top: 15px;
+  display: block;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 10px;
+  transition: 300ms;
+  padding-top: 15px;
 }
 
 .item {
-    display: block;
-    box-sizing: border-box;
-    width: 25%;
-    padding: 10px;
-    transition: 300ms;
-    padding-top: 15px;
+  display: block;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 10px;
+  transition: 300ms;
+  padding-top: 15px;
 }
 
 .item-list {
-    display: block;
-    box-sizing: border-box;
-    width: 25%;
-    padding: 10px;
-    transition: 300ms;
-    padding-top: 15px;
+  display: block;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 10px;
+  transition: 300ms;
+  padding-top: 15px;
 }
 
 .item:hover {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
-
 .flexbook {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .itemBook {
-    display: block;
-    box-sizing: border-box;
-    width: 50%;
-    padding: 10px;
-    height: 100%;
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 10px;
+  height: 100%;
 }
 
 .button-book {
-    font-weight: bold;
-    height: 50px;
-    border-radius: 8px 8px 8px 8px;
-    width: 70%;
-    margin-left: 15%;
-    color: #ffffff;
-    background-color: #F4CB00;
-    border: #ffffff solid 1px;
-    transition: 300ms;
+  font-weight: bold;
+  height: 50px;
+  border-radius: 8px 8px 8px 8px;
+  width: 70%;
+  margin-left: 15%;
+  color: #ffffff;
+  background-color: #f4cb00;
+  border: #ffffff solid 1px;
+  transition: 300ms;
 }
 
 .button-book:hover {
-    background-color: #DDA700;
-    color: #ffffff;
+  background-color: #dda700;
+  color: #ffffff;
 }
 
 .contentFrame {
-    margin-top: 25%;
+  margin-top: 25%;
 }
 
 /* ----------------------------------------------------font---------------------------------------------------- */
 .brandname {
-    font-size: 48px;
-    font-weight: bold;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .license {
-    font-size: 32px;
-    font-weight: lighter;
+  font-size: 32px;
+  font-weight: lighter;
 }
 
 .contentCar {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .detailCar {
-    padding: 50px;
-    font-size: 22px;
+  padding: 50px;
+  font-size: 22px;
 }
 
-
-
-
-
 @media only screen and (max-width: 1200px) {
-
-    .item-list {
-        display: block;
-        box-sizing: border-box;
-        width: 50%;
-        padding: 10px;
-    }
-    .item {
-        display: block;
-        box-sizing: border-box;
-        width: 50%;
-        padding: 10px;
-    }
-    .datapick {
-        padding: 15px;
-        width: 80%;
-    }
+  .item-list {
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+  }
+  .item {
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+  }
+  .datapick {
+    padding: 15px;
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .contentFrame {
-        margin-top: 10px;
-    }
+  .contentFrame {
+    margin-top: 10px;
+  }
 
-    .flexbox {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+  .flexbox {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
-    .item {
-        display: block;
-        box-sizing: border-box;
-        width: 100%;
-        padding: 10px;
-    }
+  .item {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+  }
 
-    .item-list {
-        display: block;
-        box-sizing: border-box;
-        width: 100%;
-        padding: 10px;
-    }
+  .item-list {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+  }
 
-    .datapick {
-        padding: 15px;
-        width: 60%;
-    }
+  .datapick {
+    padding: 15px;
+    width: 60%;
+  }
 
-    .itemBook {
-        display: block;
-        box-sizing: border-box;
-        width: 100%;
-        padding: 10px;
-    }
+  .itemBook {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+  }
 
-    .brandname {
-        font-size: 28px;
-        font-weight: bold;
-    }
+  .brandname {
+    font-size: 28px;
+    font-weight: bold;
+  }
 
-    .license {
-        font-size: 18px;
-        font-weight: bold;
-    }
+  .license {
+    font-size: 18px;
+    font-weight: bold;
+  }
 
-    .contentCar {
-        font-size: 22px;
-    }
+  .contentCar {
+    font-size: 22px;
+  }
 
-    .detailCar {
-        padding: 50px;
-        font-size: 22px;
-    }
+  .detailCar {
+    padding: 50px;
+    font-size: 22px;
+  }
 
-    .bigcard {
-        height: 150px;
-        grid-template-columns: 1.5fr 1.5fr;
+  .bigcard {
+    height: 150px;
+    grid-template-columns: 1.5fr 1.5fr;
+  }
 
-    }
-
-    .detailCar {
-        padding: 15px;
-        font-size: 16px;
-        ;
-    }
-
-
+  .detailCar {
+    padding: 15px;
+    font-size: 16px;
+  }
+}
+body {
+  font-family: "CPAC MODERN MEDIUM";
 }

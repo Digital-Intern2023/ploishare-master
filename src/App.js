@@ -1,24 +1,24 @@
 import React, { useState, useEffect } from "react";
-import { Routes, Route,useNavigate } from "react-router-dom";
-import { setupIonicReact } from '@ionic/react';
+import { Routes, Route, useNavigate } from "react-router-dom";
+import { setupIonicReact } from "@ionic/react";
 
 import { RouteAdmin } from "./routes/AdminRoutes";
 import { RouteUser } from "./routes/UserRoutes";
 import { RoutePublic } from "./routes/PublicRoutes";
 import IndexUser from "./page/IndexUser";
 
-import LoHeader from './layout/LoHeader'
-import LoNavbar from './layout/LoNavbar'
-import LoFooter from './layout/LoFooter'
-import MenuButton from './layout/LoMenu'
+import LoHeader from "./layout/LoHeader";
+import LoNavbar from "./layout/LoNavbar";
+import LoFooter from "./layout/LoFooter";
+import MenuButton from "./layout/LoMenu";
 
 import { GET_USER } from "./Constant";
 import callAPI from "./service/CallAPI";
 
-import './css/Disable.css';
-import './css/AdminStyle.css';
+import "./css/Disable.css";
+import "./css/AdminStyle.css";
 /* Core CSS required for Ionic components to work properly */
-import '@ionic/react/css/core.css';
+import "@ionic/react/css/core.css";
 
 // /* Basic CSS for apps built with Ionic */
 // import '@ionic/react/css/normalize.css';
@@ -34,7 +34,7 @@ import '@ionic/react/css/core.css';
 // import '@ionic/react/css/display.css';
 
 setupIonicReact({
-  mode: 'md'
+  mode: "md",
 });
 
 function App() {
@@ -54,12 +54,15 @@ function App() {
         setAdmin(null);
       }
     }
-
   }, []);
 
   return (
-    <div>
-      {admin === 'admin' ?
+    <div
+      style={{
+        fontFamily: "CPAC MODERN MEDIUM",
+      }}
+    >
+      {admin === "admin" ? (
         <div>
           <LoHeader />
           <LoNavbar />
@@ -72,21 +75,23 @@ function App() {
           </div>
           <LoFooter />
         </div>
-        : admin === 'user' ?
-          <div>
-            <Routes>
-              {RouteUser.map(({ path, element }, key) => {
-                return <Route index path={path} element={element} key={key} />;
-              })}
-            </Routes>
-            <MenuButton />
-          </div>
-          : <Routes>
-            {RoutePublic.map(({ path, element }, key) => {
+      ) : admin === "user" ? (
+        <div>
+          <Routes>
+            {RouteUser.map(({ path, element }, key) => {
               return <Route index path={path} element={element} key={key} />;
             })}
-          </Routes>}
-    </div >
+          </Routes>
+          <MenuButton />
+        </div>
+      ) : (
+        <Routes>
+          {RoutePublic.map(({ path, element }, key) => {
+            return <Route index path={path} element={element} key={key} />;
+          })}
+        </Routes>
+      )}
+    </div>
   );
 }
 

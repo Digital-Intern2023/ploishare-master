@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react'
-import SelectDate from '../components/SelectDate'
-import authCheck from '../service/Auth'
-
+import React, { useEffect } from "react";
+import SelectDate from "../components/SelectDate";
+import authCheck from "../service/Auth";
 
 function IndexUser() {
   useEffect(() => {
@@ -15,7 +14,7 @@ function IndexUser() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default IndexUser;
